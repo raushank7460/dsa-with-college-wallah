@@ -1,6 +1,6 @@
 package looping;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class table {
     public static void main(String[] args) {
@@ -8,7 +8,6 @@ public class table {
         System.out.println("Enter No:");
         int num=sc.nextInt();
         for(int i=1;i<=10;i++){
-
             System.out.println(num+"X"+i+"="+(num*i));
 
         }
